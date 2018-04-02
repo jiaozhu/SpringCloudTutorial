@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="feign-consumer" />
         <module name="hello-service" />
         <module name="ribbon-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
       <module name="hello-service" target="1.8" />
       <module name="ribbon-consumer" target="1.8" />
     </bytecodeTargetLevel>
